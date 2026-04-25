@@ -59,7 +59,7 @@ External Services
 ![t2 Page](frontend/public/t2-d.png)
 ### Trader 2 Toast notifications
 ![t21 Page](frontend/public/t2-live.png)
-### Trader 2 alerts history
+### Trader 2 alerts configuration
 ![t22 Page](frontend/public/t2-a1.png)
 
 ##  Getting Started
