@@ -53,14 +53,15 @@ External Services
 ![t1 Page](frontend/public/t1-live.png)
 ### Trader 1 active alerts
 ![t13 Page](frontend/public/t1-a.png)
-### Trader 1 alerts history
-![t12 Page](frontend/public/t1-h.png)
+
 ### Trader 2 Dashboard
 ![t2 Page](frontend/public/t2-d.png)
 ### Trader 2 Toast notifications
 ![t21 Page](frontend/public/t2-live.png)
 ### Trader 2 alerts configuration
 ![t22 Page](frontend/public/t2-a1.png)
+### Trader 2 alerts history
+![t12 Page](frontend/public/t1-h.png)
 
 ##  Getting Started
 1. Setup database
