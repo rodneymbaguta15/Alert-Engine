@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+/* Fonts: IBM Plex Sans for UI, IBM Plex Mono for numeric/technical data.
+   Chosen for its characterful-yet-professional feel — distinctive without
+   being showy. Used by real fintech tools (e.g., IBM's own financial products). */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+/* Tailwind v4 theme customization via CSS variables. */
+@theme {
+  --font-sans: 'IBM Plex Sans', -apple-system, system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  /* A restrained palette: grays + one accent. Calm, tool-like, not flashy. */
+  --color-ink-50:  #f8f8f7;
+  --color-ink-100: #eeeeec;
+  --color-ink-200: #d6d6d3;
+  --color-ink-300: #a8a8a4;
+  --color-ink-400: #74746f;
+  --color-ink-500: #4a4a46;
+  --color-ink-600: #33332f;
+  --color-ink-700: #22221f;
+  --color-ink-800: #161614;
+  --color-ink-900: #0c0c0b;
+
+  --color-accent: #d97706;    /* amber — financial, warm, serious */
+  --color-danger: #b91c1c;
+  --color-success: #15803d;
+}
+
+/* Baseline */
+html, body {
+  font-family: var(--font-sans);
+  font-feature-settings: 'cv02', 'cv11';  /* IBM Plex's tasteful alternates */
+  color: var(--color-ink-800);
+  background: var(--color-ink-50);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Numeric data — prices, timestamps, IDs — uses the mono font, tabular figures
+   so columns of numbers align cleanly. */
+.font-mono-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Toast slide-in animation. CSS keyframe is cleaner than installing Framer Motion
+   for a single effect. */
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 250ms ease-out;
+}
