@@ -65,9 +65,13 @@ External Services
 
 ##  Getting Started
 1. Setup database
-2. Configure your environment variables in SpringBoot
-3. Run the backend first, then run the frontend
-4. Use the 2 seeded users to Login
+2. You will need these dependencies: Spring Data JPA, Security, Mail, Validation, Web, DevTools, WebSocket,Flyway, PostgreSQL, Lombok, Test, JsonWebToken.
+3. Configure your environment variables in SpringBoot (see .env.example file to see what to include in your actual .env file)
+4. Run the backend first = ./mvnw spring-boot:run -Dmaven.test.skip=true
+5. Then run the frontend via  different terminal= cd frontend to naviagte to directory then npm run dev
+6. Use the 2 seeded users to Login.
+7. Create an alert and wait a few seconds to see it pop-up on your screen.
+8. (Optional) Edit or Delete an alert. 
 
 ## Future Improvements
 - The current system is a development-stage MVP. Planned enhancements:
