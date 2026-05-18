@@ -96,3 +96,4 @@ External Services
  - Observability
 ### User Experience
  - Dynamic ticker support — let users add any Finnhub-supported symbol instead of a fixed whitelist
+ - Being able to group alerts based on sector/industry 
