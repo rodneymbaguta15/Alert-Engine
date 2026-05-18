@@ -67,7 +67,7 @@ External Services
 1. Setup database
 2. You will need these dependencies: Spring Data JPA, Security, Mail, Validation, Web, DevTools, WebSocket,Flyway, PostgreSQL, Lombok, Test, JsonWebToken.
 3. Configure your environment variables in SpringBoot (see .env.example file to see what to include in your actual .env file)
-4. Run the backend first = ./mvnw spring-boot:run -Dmaven.test.skip=true
+4. Run the backend first = Click Run beside AlertEngineApplication
 5. Then run the frontend via  different terminal= cd frontend to naviagte to directory then npm run dev
 6. Use the 2 seeded users to Login.
 7. Create an alert and wait a few seconds to see it pop-up on your screen.
