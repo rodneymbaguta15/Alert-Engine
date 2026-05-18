@@ -22,7 +22,7 @@ import java.util.List;
 public class AppTickerConfig {
 
     /** Tickers the app is willing to poll and alert on. Validated in AlertConfigService. */
-    private List<String> allowedTickers = List.of("AAPL", "NVDA", "GOOGL");
+    private List<String> allowedTickers = List.of("AAPL", "NVDA", "GOOGL", "MSFT", "RY");
 
     /** How often the poller runs. 60s to stay under Finnhub free tier (60 calls/min). */
     private Duration pollingInterval = Duration.ofSeconds(60);
