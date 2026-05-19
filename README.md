@@ -53,6 +53,8 @@ External Services
 ![t1 Page](frontend/public/t1-live.png)
 ### Trader 1 active alerts
 ![t13 Page](frontend/public/t1-a.png)
+### Trader 1 Dashboard (New update with more tickers)
+![t14 Page](frontend/public/t1-dash.png)
 
 ### Trader 2 Dashboard
 ![t2 Page](frontend/public/t2-d.png)
